@@ -1,0 +1,15 @@
+pkgbase = python-jpegtran-cffi
+	pkgdesc = Providing fast, lossless JPEG transformations with Python
+	pkgver = 0.5.2
+	pkgrel = 4
+	url = https://github.com/jbaiter/jpegtran-cffi
+	arch = x86_64
+	license = custom
+	license = MIT
+	makedepends = python-setuptools
+	depends = libjpeg-turbo
+	depends = python-cffi
+	source = jpegtran-cffi-0.5.2::https://github.com/jbaiter/jpegtran-cffi/archive/v0.5.2.tar.gz
+	sha512sums = 2c4201bf31d1d5deb73d13c143fe39510c129fbcb1f7ac20fd679865fb2ab51fa3dfc1d093892d569fd61de281aa7b5c10d913c69261bc10a4ba5c3365f80e0b
+
+pkgname = python-jpegtran-cffi
